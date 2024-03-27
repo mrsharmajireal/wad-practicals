@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function fact() {
+  var i, no, f;
+  f = 1;
+  no = Number(document.getElementById("num").value);
+  for (i = 1; i <= no; i++) {
+    f = f * i;
+  }
+  document.getElementById("res").value = f;
+}
+</script>
+</head>
+<body>
+Enter Number: <input id="num"><br>
+<button onclick="fact()">Calculate Factorial</button>
+<input id="res">
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+<html>
+<body>
+<script>
+var n1 = 0, n2 = 1, next, i;
+var num = parseInt(prompt("Enter the limit for Fibonacci series"));
+document.write("Fibonacci series:");
+for (i = 1; i <= num; i++) {
+    document.write("<br>" + n1);
+    next = n1 + n2;
+    n1 = n2;
+    n2 = next;
+}
+</script>
+</body>
+</html>
+
